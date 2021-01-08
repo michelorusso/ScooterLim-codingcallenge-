@@ -1,0 +1,68 @@
+/* immagine di sfondo del sito */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* sfondo del corpo del sito */
+.container{
+  width: 1000px;
+  height: 750px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+/* ridimensionamento logo e modifiche al titolo della pagina */
+header{
+  text-align: center;
+  color: rgb(0, 221, 0);
+  font-size: 30px ;
+  }
+#logo{
+    margin-top: 80px;
+    width: 200px;
+  }
+
+/* modifiche al nav */
+.pulsanti{
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  background-color: rgb(0, 221, 0);
+  padding: 10px;
+}
+
+/* modifiche al main */
+.scooter{
+  margin: auto;
+  width: 820px;
+  color: white;
+}
+.opzione{
+  margin-top: 20px;
+}
+span{
+  font-size: 25px;
+}
+
+/* livello batteria monopattino */
+.halfbattery{
+  width: 300px;
+  height: 25px;
+  background-color: #ffcc66;
+  border-radius: 5px;
+}
+.fullbattery{
+  width: 600px;
+  height: 25px;
+  background-color: #33ff33;
+  border-radius: 5px;
+}
+.lowbattery{
+  width: 120px;
+  height: 25px;
+  background-color:  #ff3333;
+  border-radius: 5px;
+}
